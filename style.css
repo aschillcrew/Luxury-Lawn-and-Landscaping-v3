@@ -1,0 +1,95 @@
+.topnav{
+    background-color:DarkGreen;
+    overflow:hidden;
+    position:fixed;
+    width:100%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight:bold;
+  font-family:Helvetica bold;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* HERO BACKGROUND */
+.hero {
+  height: 100vh;
+  background-image: url("https://pub-141831e61e69445289222976a15b6fb3.r2.dev/Image_to_url_V2/IMG_4237-imagetourl.cloud-1768111980262-a43u85.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Scroll interaction */
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* SMALL LOGO */
+.logo {
+  width: 400px;     /* VERY small */
+  max-width: 60vw;
+  height: auto;
+}
+
+/* PAGE CONTENT */
+.content {
+  padding: 60px;
+}
+
+.home-lines{
+    width:83%;
+    font-weight:bold;
+}
+
+.home-img{
+    width:50%;
+    Height:50%;
+}
+
+.green-h1{
+    color:forestgreen;
+}
+
+body{
+    font-family:Londrina;
+    font-size:25px;
+}
+
+.about-us-paragraph{
+    text-align:center;
+}
+
+.toc-h1{
+    font-size:100px;
+}
+
+.toc-h2{
+    font-size:80px;
+}
+
+.home-body{
+    background-image:url("https://pub-141831e61e69445289222976a15b6fb3.r2.dev/Image_to_url_V2/Screenshot-2026-01-11-141148-imagetourl.cloud-1768162324368-oalwql.png");
+}
+
+.Home-center{
+ background-color:white;   
+}
